@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    @GetMapping("/welcome")
+    @GetMapping("/san")
     public String getMessage(){
         return "Welcome to tech soft";
         
