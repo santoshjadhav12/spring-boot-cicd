@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @GetMapping("/")  // Maps requests to the root path "/"
+    @GetMapping("/welcome")  // Maps requests to the root path "/"
     public String home() {
         return "Welcome to the Spring Boot App on port 9090!";
     }
